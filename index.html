@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance Provider</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!--contact-banner-->
+    <div class="contact-header d-flex justify-content-start align-items-center">
+      <div class="d-flex justify-content-around align-items-center">
+        <h1>
+          <i class="fa-solid fa-envelope mx-2"></i>info@quickfinanceprovider.in
+        </h1>
+
+        <h1 class="ml-2">
+          <i class="fa-solid fa-phone mx-2"></i>+91 XXXXXXXXXX
+        </h1>
+      </div>
+    </div>
+    <!--Navbar-->
+    <section class="my-nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./imgs/logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#review">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">Faqs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#emi">Calculator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#document">Document</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://mudgal.netlify.app" target="_blank">Created by</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!--banner-->
+    <section class="banner">
+      <div class="row">
+        <div class="col col-xl-7"></div>
+        <div class="col col-xl-5">
+          <div class="loan m-4 p-4">
+            <h1 class="text-center mt-3">Apply for loan</h1>
+            <form class="p-3">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Your name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Email I'd"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Enter your Mobile no"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Enter your State"
+                />
+              </div>
+              <div class="mb-3">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select Loan Amount
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#">50,000 to 1,00,000</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">1,00,000 to 2,00,000</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">2,00,000 to 3,00,000</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">3,00,000 to 4,00,000</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">4,00,000 to 5,00,000</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >5,00,000 to 10,00,000</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >10,00,000 to 15,00,000</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >15,00,000 to 20,00,000</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >20,00,000 to 30,00,000</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >30,00,000 to 40,00,000</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >40,00,000 to 50,00,000</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">50,00,000 and Above</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mb-3">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Select Loan Type
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Property Loan</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Personal Loan</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Home Loan</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Business Loan</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Car Loan</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Education Loan</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <button class="btn btn-primary">Apply Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About us-->
+    <section class="pt-4 about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="d-flex justify-content-center align-items-center">
+              <img
+                src="./imgs/about.png"
+                alt="image"
+                class="image"
+                data-aos="fade-right"
+              />
+            </div>
+          </div>
+          <div class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="about-details">
+              <h1>About us</h1>
+              <p>
+                In order to make consumers' personal financial decisions as transparent and simple as possible, we are offering personal finance digital platforms. Through our numerous financial partners and institutions, we offer our customers flexible and convenient personal finance deals. We offer a simple application process, immediate approval, the greatest deals, trustworthy prices, outstanding service, and security.
+
+             
+                
+              </p>
+              <p>
+                With the correct collection of documentation, loan approval is simpler and quicker. The procedure takes a small number of documents and may somewhat vary from lender to lender depending on your needs for a personal loan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--service section-->
+    <section class="service p-4" id="service">
+      <h1 class="text-center service-title">Our Service</h1>
+      <div class="container mt-4">
+        <div class="row d-flex justify-content-center">
+          <div
+            class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12"
+            data-aos="zoom-in"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center flex-column services-desc p-3"
+            >
+              <div class="icon-bg">
+                <i class="fa-solid fa-house-chimney fa-2x"></i>
+              </div>
+              <h1 class="title mt-4">Home Loan</h1>
+              <p class="loan-para text-center mt-2">
+                Your one-stop shop for obtaining your dream home is a home loan. Whether you actually need to build another bone or buy a house, we offer a variety of real products to meet your packaging credit needs. We provide affordable house advances for terms up to various events at the alluring speed of financing charges.
+
+              </p>
+            </div>
+          </div>
+          <div
+            class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12"
+            data-aos="zoom-in"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center flex-column services-desc p-3"
+            >
+              <div class="car-bg">
+                <i class="fa-solid fa-car fa-2x"></i>
+              </div>
+              <h1 class="title mt-4">Car Loan</h1>
+              <p class="loan-para text-center mt-2">
+                Could you be required to ride in a car? Is it the top vehicle?
+                Mileage an Auto Loan from or close for are kept in mind while getting an Auto Loan from us! You'll also be appropriate for auto loans that are over 100 percent of the "on-street" cost of the vehicle and have exorbitant credit costs.
+
+              </p>
+            </div>
+          </div>
+          <div
+            class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12"
+            data-aos="zoom-in"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center flex-column services-desc p-3"
+            >
+              <div class="gold-bg">
+                <i class="fa-solid fa-ring fa-2x"></i>
+              </div>
+              <h1 class="title mt-4">Gold Loan</h1>
+              <p class="loan-para text-center mt-2">
+                With Instant Loans Gold Loan, which allows you to receive images in 45 seconds, meet your needs on your own. The Gold Loan is your compelling solution to take care of your enormous financial needs. Anything that your explanation might be, such as training, business development, a certain interest, a clinical end-use, or some other demonstrated end-use,
+
+              </p>
+            </div>
+          </div>
+          <div
+            class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12"
+            data-aos="zoom-in"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center flex-column services-desc p-3"
+            >
+              <div class="icon-bg">
+                <i class="fa-solid fa-business-time fa-2x"></i>
+              </div>
+              <h1 class="title mt-4">Business Loan</h1>
+              <p class="loan-para text-center mt-2">
+                A business loan (BL) is an affirmation/unsecured credit that is granted to a tone-utilized person and actuality.
+                Any business update or outfit can benefit from business loans.
+
+                purchase, which is compensated in ambiguous introductions at predetermined intervals.
+
+              </p>
+            </div>
+          </div>
+          <div
+            class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12"
+            data-aos="zoom-in"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center flex-column services-desc p-3"
+            >
+              <div class="car-bg">
+                <i class="fa-solid fa-book fa-2x"></i>
+              </div>
+              <h1 class="title mt-4">Education Loan</h1>
+              <p class="loan-para text-center mt-2">
+              Why should a move be included in the plan for something that might not be too far away? Obtaining bearing improvement is a significant way for funding your ambitions. You can get into the school that you are really oriented toward with the help of an understudy advance. Then, we're going to support your imaginations by planning and posing inquiries.
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Patner section-->
+    <section class="patner p-4" data-aos="zoom-in" id="patner">
+      <h1 class="text-center partner-title">Our Honorable Partners</h1>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col col-xl-3">
+            <img src="./imgs/dbs.png" width="80%" height="80%" />
+          </div>
+          <div class="col col-xl-3">
+            <img src="./imgs/canera.png" width="80%" height="80%" />
+          </div>
+          <div class="col col-xl-3">
+            <img src="./imgs/axis.png" width="80%" height="80%" />
+          </div>
+          <div class="col col-xl-3">
+            <img src="./imgs/rbl.png" width="80%" height="80%" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--review section-->
+    <section class="review p-4" id="review">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="parent">
+              <div class="review-bg p-3">
+                <p class="review-para mt-2">
+                  I assisted person with crediting from Loan Services and the
+                  electronic application relationship of Loan Services is
+                  astoundingly short and absolutely plainly obvious. The client
+                  care and the help I got at Loan Services is especially
+                  verifiably smooth.
+                </p>
+                <div class="start mt-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h1 class="review-by mt-2">Rajesh</h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="parent">
+              <div class="review-bg p-3">
+                <p class="review-para mt-2">
+                  I helped individual with crediting from Loan Services and the
+                  electronic application relationship of Loan Services is
+                  astoundingly short and totally evidently self-evident. The
+                  client care and the assistance I got at Loan Services is
+                  particularly unquestionably smooth.
+                </p>
+                <div class="start mt-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h1 class="review-by mt-2">Aman</h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="parent">
+              <div class="review-bg p-3">
+                <p class="review-para mt-2">
+                  Expected to purchase a silly bicycle and Loan Services bike
+                  credit emi agent helped me a ton to deal with my month to
+                  month expenses. Eagerly support everybody to assist a bike
+                  with crediting from Loan Services.
+                </p>
+                <div class="start mt-2">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h1 class="review-by mt-2">Shubham</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!--Faq section-->
+    <section class="faq p-4" id="faq">
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col col-xl-6 col-md-6 col-sm-12 col-12">
+            <h1 class="text-center faq-title">FAQ's</h1>
+            <div class="d-flex justify-content-center align-items-center">
+              <img
+                src="./imgs//faq.png"
+                alt="faq"
+                width="70%"
+                height="100%"
+                data-aos="zoom-in"
+              />
+            </div>
+          </div>
+          <div class="col col-xl-6 col-md-6 col-sm-12 col-12">
+            <div class="d-flex justify-content-center">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      How should I check expecting that I am ready to apply for
+                      a particular turn of events?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Most banks wrap up the end models that you should meet
+                        for your improvement application to be stayed aware of
+                        on their particular fights. You can proportionately
+                        utilize the particular advancement limit minute PC
+                        contraption, which you will find on the area of banks
+                        and cash related foundations and on far away monetary
+                        affiliations battles like
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      What reports will I truly need to submit while applying
+                      for a particular turn of events?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        While the specific documents required change beginning
+                        with one moneylender then onto the going with, recorded
+                        under are a couple in like manner reports that most
+                        banks/monetary affiliations all around affirm that
+                        promising new kids around ought to submit: Declaration
+                        of character Address declaration Declaration of pay
+                        Declaration of business (beast just for point of fact
+                        used people) A couple of spot very nearly a few records
+                        suggested by the movement instructed power
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      For what reason is it basic to have a fair FICO rating?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Suffering you have a nice FICO appraisal, the
+                      possibilities of you being offered the credit at a low
+                      improvement charge are especially high. Your money related
+                      assessment shows your unflinching quality and your
+                      reimbursement limit. Expecting you are hoping to apply for
+                      a solitary new turn of events, it is fitting to keep a
+                      FICO assessment that is more than 750. People with a
+                      phenomenally low FICO rating might be denied an
+                      improvement considering everything, while those with a
+                      moderate FICO rating might be offered a particular credit,
+                      after a short time at a silly financing cost.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--calculator-->
+    <section class="calculator p-4" id="emi">
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div
+              class="d-flex justify-content-center align-items-center flex-column form-section"
+            >
+              <h1 class="text-center calculator-title mt-4">Calculator</h1>
+              <form class="mt-3" id="InterestForm">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Loan Amount ₹ :</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="loan"
+                    aria-describedby="emailHelp"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Interest Rate % :</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="rate"
+                    aria-describedby="emailHelp"
+                    required
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Month To Pay :</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="month"
+                    aria-describedby="emailHelp"
+                    required
+                  />
+                </div>
+                <button class="btn btn-primary" type="submit">
+                  Calculate Now
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div
+              class="d-flex justify-content-center align-items-center p-4 mt-4"
+            >
+              <img
+                src="./imgs/cal.png"
+                alt="cal"
+                width="100%"
+                height="100%"
+                data-aos="zoom-in"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Document-->
+    <section class="document p-4" id="document">
+      <h1 class="text-center document-title">Document Required</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div
+              class="d-flex justify-content-around flex-column documents mt-3"
+            >
+              <div class="d-flex justify-content-start align-item-center">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>Last two month Pay Slip</h1>
+              </div>
+              <div class="d-flex justify-content-start align-item-center mt-2">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>Address Proof</h1>
+              </div>
+              <div class="d-flex justify-content-start align-item-center mt-2">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>I.D Proof</h1>
+              </div>
+              <div class="d-flex justify-content-start align-item-center mt-2">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>Bank Statement of last Three month.</h1>
+              </div>
+              <div class="d-flex justify-content-start align-item-center mt-2">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>
+                  2 Recent Passport Size Photographs (Valid up to last six month
+                  captured)
+                </h1>
+              </div>
+              <div class="d-flex justify-content-start align-item-center mt-2">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>Ration Card</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div
+              class="d-flex justify-content-around flex-column documents mt-3"
+            >
+              <div class="d-flex justify-content-start align-item-center">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>Electricity Bill</h1>
+              </div>
+              <div class="d-flex justify-content-start align-item-center mt-2">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>Land Line Bill</h1>
+              </div>
+              <div class="d-flex justify-content-start align-item-center mt-2">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>Passport</h1>
+              </div>
+              <div class="d-flex justify-content-start align-item-center mt-2">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>Mool Niwas Patra</h1>
+              </div>
+              <div class="d-flex justify-content-start align-item-center mt-2">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>House Tax Slip Water Bill</h1>
+              </div>
+              <div class="d-flex justify-content-start align-item-center mt-2">
+                <i class="fa-solid fa-check fa-2x"></i>
+                <h1>Gas Bill etc</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Conatct us-->
+    <section class="contact p-4" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col col-xl-8">
+            <div class="d-flex justify-content-center align-items-center">
+              <h1 class="contact-title">Contact Us</h1>
+            </div>
+            <div class="d-flex justify-content-start flex-column mt-3">
+              <div
+                class="d-flex justify-content-start align-item-center contacts"
+              >
+                <i class="fa-solid fa-phone fa-2x"></i>
+                <h1>+91 XXXXXXXXXX</h1>
+              </div>
+              <div
+                class="d-flex justify-content-start align-item-center contacts mt-3"
+              >
+                <i class="fa-solid fa-envelope fa-2x"></i>
+                <h1>info@quickfinanceprovider.in</h1>
+              </div>
+              <div
+                class="d-flex justify-content-start align-item-center contacts mt-3"
+              >
+                <i class="fa-solid fa-location-dot fa-2x"></i>
+                <h1>
+                  No.48, Ground floor, Jayanagar 5th Block, 6th Main Rd,
+                  Bengaluru, Karnataka 560041
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <section class="footer">
+      <h1>2022 © Quick Finance Provider</h1>
+    </section>
+    <!--Scripts-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
